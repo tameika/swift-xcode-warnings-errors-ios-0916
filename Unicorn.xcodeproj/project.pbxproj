@@ -10,12 +10,12 @@
 		506DB71A1B104F32FFCF281C /* Pods_Unicorn.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A1978ECAC889349FC8F30BE /* Pods_Unicorn.framework */; };
 		5B763E861D4A513000B6722E /* ViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B763E851D4A513000B6722E /* ViewControllerTests.swift */; };
 		5BE81E051D4A4F03008106D3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE81E041D4A4F03008106D3 /* AppDelegate.swift */; };
-		5BE81E071D4A4F03008106D3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE81E061D4A4F03008106D3 /* ViewController.swift */; };
 		5BE81E0A1D4A4F03008106D3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE81E081D4A4F03008106D3 /* Main.storyboard */; };
 		5BE81E0C1D4A4F03008106D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5BE81E0B1D4A4F03008106D3 /* Assets.xcassets */; };
 		5BE81E0F1D4A4F03008106D3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5BE81E0D1D4A4F03008106D3 /* LaunchScreen.storyboard */; };
 		5BE81E1A1D4A4F03008106D3 /* UnicornTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE81E191D4A4F03008106D3 /* UnicornTests.swift */; };
 		7ADF92578C2E543F56A59B05 /* Pods_UnicornTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8CA9B653716772BC8BA3E998 /* Pods_UnicornTests.framework */; };
+		BC0E5DCC1D7677E000ECA47F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5BE81E061D4A4F03008106D3 /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -347,7 +347,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5BE81E071D4A4F03008106D3 /* ViewController.swift in Sources */,
 				5BE81E051D4A4F03008106D3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -356,6 +355,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BC0E5DCC1D7677E000ECA47F /* ViewController.swift in Sources */,
 				5B763E861D4A513000B6722E /* ViewControllerTests.swift in Sources */,
 				5BE81E1A1D4A4F03008106D3 /* UnicornTests.swift in Sources */,
 			);
